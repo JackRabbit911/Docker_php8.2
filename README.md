@@ -25,8 +25,9 @@
 - memcache 8.2
 
 ### Install:
-1. Dowload Dockerfile, docker-compose.yml and default.conf, or tar archive to Your root project folder.
-```
-curl -L https://api.github.com/repos/JackRabbit911/Docker_php8.2/tarball/master > master.tar
-```
-2. Extract files to current folder
+1. `mkdir <your_root_project_folder>`  
+2. `cd <your_root_project_folder>`
+3. `curl -L https://api.github.com/repos/JackRabbit911/Docker_php8.2/tarball/master > docker.tar`
+4. `tar -xf docker.tar`
+5. `mv JackRabbit911-Docker_php8.2*/{*,.[^.]*} .`
+6. `rm docker.tar`
