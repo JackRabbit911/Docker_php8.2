@@ -1,7 +1,7 @@
 # Docker_php8.2
 
 ### Contains:
-
+#### PHP 8.2
 - sodium
 - soap
 - gd
@@ -23,6 +23,8 @@
 - xsl
 - intl
 - memcache 8.2
+#### MySQL 5.7
+#### FakeSMTP
 
 ### Installation:
 1. `mkdir <your_root_project_folder>`  
